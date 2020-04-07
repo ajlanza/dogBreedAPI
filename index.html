@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <title>What dog breed?</title>
+</head>
+<body>
+    <main class="container">
+        <h1>What breed of dog would you like to see?</h1>
+        
+        <form class="dogForm">
+          <label for="breed">Please enter the breed with no spaces :</label>
+          <input type="text" id="breed" name="breed"> 
+          <input type="submit" value="Get your breed.">
+        </form>
+        <p class="insertDogs hidden" id="insertDogs">
+          <!-- This is where we will display our dog images. -->
+        </p>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
